@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<title>Pictures for a Purpose</title>
+<style>
+body {
+        background-image: url("logo.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+</style>
+
+</head>
+
+<body>
+
+</body>
+</html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("logo.jpeg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card-2" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Pictures for a Purpose</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i>FILTERS</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i>DONATIONS</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-black" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Welcome to Pictures for a Purpose!</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">We bring attention to important causes while providing entertainment too.</span><br>
+    <span class="w3-large">Use a filter, help a cause.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more about the creators.</a></p>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">WHAT WE DO</h3>
+  <p class="w3-center w3-large">Key features of our website</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-third">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Choose your filter</p>
+      <p>choose a filter to bring awareness to a cause you care about</p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Donate</p>
+      <p>Have the option to donate to organizations you support.</p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Learn</p>
+      <p>Learn about organizations and causes.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">The ones who runs this company</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <img src="/w3images/team2.jpg" alt="Makayla" style="width:100%">
+        <div class="w3-container">
+          <h3><a href=>Makayla Williams</a></h3>
+          <p class="w3-opacity">Creator</p>
+          <p>Created and implemented code for the filters.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <img src="/w3images/team1.jpg" alt="Diana" style="width:100%">
+        <div class="w3-container">
+          <h3>Diana Perdomo</h3>
+          <p class="w3-opacity">Creator</p>
+          <p>Designed the site.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <img src="/w3images/team3.jpg" alt="Hannah" style="width:100%">
+        <div class="w3-container">
+          <h3>Hannah Johnston</h3>
+          <p class="w3-opacity">Creator</p>
+          <p>Designed the pages on the site.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card-2">
+        <img src="/w3images/team4.jpg" alt="Grace" style="width:100%">
+        <div class="w3-container">
+          <h3>Grace Ouabo</h3>
+          <p class="w3-opacity">Creator</p>
+          <p> Researched and verified the content for the site.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">FILTERS</h3>
+  <div>
+    <html>
+    <title>Filter Me</title>
+    <style type="text/css">
+      #go {width:180px;padding:10px;background:red;color:white;font-weight:bold;margin:20px 0;}
+      #canvas {display:block;}
+    </style>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="recolor.js"></script>
+     <script src="canvas.js"></script>
+    <body>
+      <h1>Filter Me!</h1>
+      <p>Upload an image below to Obamiconize it!</p>
+      <input type='file' />
+      <div id="go" onclick="loadCanvas()">Upload your Image</div>
+      <canvas id="canvas"></canvas>
+      <button id="firstfilter">Obamicon</button>
+      <button id="secondfilter">Another Filter</button>
+      <button id="thirdfilter">Other Filter</button>
+    </body>
+  <p class="w3-center w3-large">Example of our work</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="al.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+      <div class: overlay
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="autism.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="breastcancer.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="unicef.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="redcross.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+    </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+
+<!-- Pricing Section -->
+<!DOCTYPE html>
+<html>
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+</style>
+<h1>Learn and Donate</h1>
+<img src="https://www.washingtonian.com/wp-content/uploads/2016/12/rainbow-flag-waving-994x559.jpg">
+<a href="https://glaad.nationbuilder.com/donate?cfa=MEM|MEM_APP|17WebDonateButton2"><img src="http://www.pngall.com/wp-content/uploads/2016/05/PayPal-Donate-Button-PNG.png"></a>
+<p>Discrimination against the LGBTQ community has been a problem for far longer than one can count. Through your donations and filtered pictures we hope to spread acceptance of this valid community.
+</p>
+<img src="http://www.ingredientsinc.net/wp-content/uploads/2011/10/2011RaceRibbons-NoLines-2-282x300.jpg"
+<a href="https://secure.info-komen.org/site/Donation2;jsessionid=00000000.app30117b?df_id=19029&mfc_pref=T&19029.donation=form1&s_src=NavigationHeaderDonateCTA&utm_source=OnpageDonateCTAs&utm_medium=NavigationHeader&utm_campaign=NavigationHeaderDonateCTA&_ga=2.128830216.546443289.1501856748-1922930768.1501856748&NONCE_TOKEN=7B3BFE01516D6778A4348CE50696202E"><img src="http://www.pngall.com/wp-content/uploads/2016/05/PayPal-Donate-Button-PNG.png"></a>
+<p>Breast cancer is the most common cancer in women. It can be fatal. Through your donations and filtered pictures we hope to spread awareness of this disease and take steps (however small) towards a cure.
+</p>
+<img src="https://cdn3.bigcommerce.com/s-npe4l/products/202/images/1066/M_MZ_AAPZ_High__95025.1460556960.380.380.jpg?c=2">
+<a href="https://autism-society.ngpvanhost.com/form/-4866437795647780864"><img src="http://www.pngall.com/wp-content/uploads/2016/05/PayPal-Donate-Button-PNG.png"></a>
+<p>Autism is a development disorder that one has in their early childhood that impacts their nervous system and it affects the person’s ability to communicate and interact with others. There is not a cure for this disorder but there are ways that you can treat this disorder. Through our project we hope to spread more awareness about Autism and learn ways that we can better deal with it.</p>
+<img src="http://www.supportourribbons.com/custom-magnet-image/48750-custom-ribbon-magnet-sticker-Alzheimer%27s+Awareness.png">
+<a href="https://alzfdn.org/support-us/donate/?gclid=Cj0KCQjwn6DMBRC0ARIsAHZtCeOXpvHD7XmCT8UWIzF52R9AdCsZS6k6cMURxcmP1dPivBAmylVz8i4aAkegEALw_wcB"><img src="http://www.pngall.com/wp-content/uploads/2016/05/PayPal-Donate-Button-PNG.png"></a>
+<p>Alzheimer's is a disease that affects the memory and other important mental functions. There are more than three million cases in the US of Alzheimer’s. Through our project and with your help we hope to spread more awareness of this disease and take the next step towards a cure.</p>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Planned_Parenthood_logo.svg/1200px-Planned_Parenthood_logo.svg.png">
+<a href="https://secure.ppaction.org/site/Donation2?df_id=24570&24570.donation=form1&s_src=Evergreen_2017_c4_ad_sea_1&s_subsrc=4NALz1800K1N1A&gclid=Cj0KCQjwn6DMBRC0ARIsAHZtCePJv_pY5f5fH4fekKpC37LUYU3MCPnE8LJ9d407hGweRjNWPdYLCTsaArlGEALw_wcB"><img src="http://www.pngall.com/wp-content/uploads/2016/05/PayPal-Donate-Button-PNG.png"></a>
+<p>Planned Parenthood is a nonprofit organization that provides health care and sex education for people all over the world. Through our project we hope to bring more awareness and
+get people more comfortable about these sensitive topics.
+</p>
+
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
